@@ -1,0 +1,34 @@
+{
+	"_root": "respuesta",
+	"_include": ["direccion.calle", "permisos", "contactos.edad", "contactos.nombre"],
+	"name": "=nombre",
+	"telefono.celular": "=telefono.movil",
+	"telefono": {
+		"cel":"=movil"
+	},
+	"nacimiento.fecha.dia": "=",
+	"nacimiento.fecha.mes": "=",
+	"nacimiento.fecha.anio": "=",
+	"gente": {
+		"_root": "contactos",
+		"_include": "nombre",
+		"genero": "=sexo"
+	},
+	"anio_nac": "=nacimiento.fecha.anio",
+	"lugar_nac": "=nacimiento.lugar",
+	"fecha_nac_formateada": "${nacimiento.fecha.dia}/${nacimiento.fecha.mes}/${nacimiento.fecha.anio}",
+	"fecha_nac": {
+		"_root": "nacimiento.fecha",
+		"_include": "dia",
+		"month": "=mes"
+	},
+	"ref_example": {
+		"_root": "nacimiento.fecha",
+		"dia": "${=}",
+		"mes": "ENTITY"
+	},
+	"valor_fijo_str": "Hola",
+	"valor_fijo_num": 4,
+	"valor_fijo_bool": true,
+	"valor_fijo_array": ["asd",1,true]
+}

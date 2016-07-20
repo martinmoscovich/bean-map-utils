@@ -1,0 +1,41 @@
+{
+	"respuesta": {
+		"nombre": "Martin",
+		"apellido": "Mos",
+		"direccion": {
+			"calle": "D Velez",
+			"altura": "3503"
+		},
+		"permisos": [
+			"admin",
+			"user"
+		],
+		"telefono": {
+			"movil": 1234,
+			"fijo": 54356
+		},
+		"contactos": [
+			{
+				"nombre": "Pedro",
+				"edad": 40,
+				"sexo": "m"
+			},
+			{
+				"nombre": "Juana",
+				"edad": 20,
+				"sexo": "f"
+			}
+		],
+		"nacimiento": {
+			"fecha": {
+				"dia": 29,
+				"mes": 12,
+				"anio": 1983
+			},
+			"lugar": {
+				"pais": "Argentina",
+				"ciudad": "Buenos Aires"
+			}
+		}
+	}
+}

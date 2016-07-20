@@ -1,0 +1,33 @@
+{
+	"name": "Martin",
+	"direccion": {
+		"calle": "D Velez",
+		"altura": "3503"
+	},
+	"permisos": [
+		"admin",
+		"user"
+	],
+	"telefono": {
+		"celular": 1234
+	},
+	"contactos": [
+		{
+			"nombre": "Pedro",
+			"genero": "m"
+		},
+		{
+			"nombre": "Juana",
+			"genero": "f"
+		}
+	],
+	"anio_nac": 1983,
+	"lugar_nac": {
+		"pais": "Argentina",
+		"ciudad": "Buenos Aires"
+	},
+	"fecha_nac": {
+		"dia": 29,
+		"month": 12
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"_root": "respuesta",
+	"name": "=nombre",
+	"direccion": "=",
+	"permisos": "=",
+	"telefono": {
+		"celular": "=movil"
+	},
+	"contactos": {
+		"nombre": "=",
+		"genero": "=sexo"
+	},
+	"anio_nac": "=nacimiento.fecha.anio",
+	"lugar_nac": "=nacimiento.lugar",
+	"fecha_nac_formateada": "${nacimiento.fecha.dia}/${nacimiento.fecha.mes}/${nacimiento.fecha.anio}",
+	"fecha_nac": {
+		"_root": "nacimiento.fecha",
+		"dia": "=",
+		"month": "=mes"
+	},
+	"valor_fijo": "Hola"
+}

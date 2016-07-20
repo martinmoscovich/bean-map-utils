@@ -1,0 +1,14 @@
+[{
+	"nombre": "Martin",
+	"direccion": {
+		"calle": "D Velez",
+		"altura": "3503"
+	}
+},
+{
+	"nombre": "Pedro",
+	"direccion": {
+		"calle": "Corrientes",
+		"altura": "1503"
+	}
+}]
